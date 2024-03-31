@@ -1,0 +1,44 @@
+#parent {
+    position: relative;
+    width: 500px;
+    height:500px;
+}
+
+.box{
+    background-color: #fcc302;
+    width: 200px;
+    height:160px;
+    position: absolute;
+    right: 400px;
+    z-index: 9;
+    bottom: 130px;
+}
+
+#parent img{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    top: 50px;
+    right: 220px;
+    z-index: 12;
+}
+
+.layer {
+    position: absolute;
+    z-index: 15;
+    width: 350px;
+    height: 300px;
+    opacity: 0.569;
+    left: -70px;
+    top: 50px;
+}
+
+.our-service {
+    border-radius: 7px;
+background-color: #fcc302;
+}
+
+#parent a{
+    height: 40px;
+    width: 40px;
+}

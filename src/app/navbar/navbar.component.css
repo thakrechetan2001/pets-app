@@ -1,0 +1,44 @@
+
+
+.main{
+    background-color: #daac00;
+    height: 18%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.links{
+    display: flex;
+    gap: 4vw;
+    position: relative;
+    right: 20%;
+}
+
+.search-bar {
+    position: relative;
+    right: 10%;
+}
+.search-icon {
+    background-color: #00bec9;
+}
+
+img{
+    height: 10%;
+    width: 10%;
+    left: 20%;
+    
+}
+
+.active{
+    border-bottom: 2px solid yellow;
+    transform : scale(1.1);
+    transition: border-bottom 0.3s ease, color 0.3s, transform 0.3s;
+}
+
+@media (max-width:425) {
+    
+   
+}

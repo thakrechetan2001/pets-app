@@ -1,0 +1,27 @@
+
+  <div class="main w-full container mx-auto flex justify-between items-center">
+    
+    <a href="#" class="logo text-white text-lg font-bold px-40 md:px-24 sm:px-60">
+      <img src="https://cdn.pixabay.com/photo/2024/02/15/20/08/dog-8576035_1280.png" alt="Company Logo" />
+    </a>
+  
+    <div class="links">
+      <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="text-white hover:text-gray-300 text-lg md:text-2xl">Home</a>
+      <a routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"  class="text-white hover:text-gray-300 text-lg md:text-2xl">About</a>
+      <a routerLink="/service" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"  class="text-white hover:text-gray-300 text-lg md:text-2xl">Service</a>
+      <a  class="text-white hover:text-gray-300 text-lg md:text-2xl">Contact</a>
+    </div>
+
+    <div class="search-bar flex items-center">
+      <div class="relative p-2 flex items-center">
+        <input type="text" placeholder="Search" class="bg-yellow-400 py-2 px-3 md:px-5 outline-none flex-grow placeholder-white text-white pl-2 pr-8 text-sm md:text-base">
+        <button type="button" class="search-icon absolute right-2  py-2 px-2 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a6 6 0 01-6 6 6 6 0 01-6-6 6 6 0 016-6 6 6 0 016 6z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35" />
+          </svg>
+        </button>
+      </div>
+      
+  </div>
+  </div>
